@@ -1,125 +1,33 @@
-<html>
+View-Compress v1.0  August 29, 1989  -  Copyright 1989 by Jeremy Hubble 
 
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<title>View-Compress v1</title>
-<style>
-<!--
- 
-p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman";}
--->
-</style>
-</head>
 
-<body style='text-justify-trim:punctuation'>
+What it is: 
 
-<div class=Section1>
+View-Compress (VC.EXE) is a program that allows you to view the files contained 
+within a .ZIP, .ARC,  or .LZH file.  It provides a compact listing of all the 
+files, along with sums of sizes, lentgths, etc. , and can accept wildcards. 
 
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>View-Compress v1.0  August 29, 1989  -  Copyright 1989 by Jeremy Hubble </span></p>
+How to use it: 
 
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>&nbsp;</span></p>
+To use view, either type VC, and press the enter key, or type 'VC filename'. 
+If you don't supply the filename on the command line, you will be prompted for 
+it when the program runs.  The filename can be a .ZIP file (FRED.ZIP), and .LZH 
+file (HERB.LZH), an .ARC file (GEORGE.ARC), all .ZIP, .ARC, or .LZH files 
+(*.ZIP , *.LZH, or even *.ARC), or the filename without an extension (FRED), 
+or any other combination of wildcards and filename combinations you can 
+dream up (*.* works, too)  If you do select a wild card in the extension, the 
+program will quickly go through all files, but only print those that are .ZIP, 
+.ARC, or .LZH, so there might be a pause in between the list while it is 
+skipping past all the other non-ZIP/LZH/ARC files in the directory. 
 
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>&nbsp;</span></p>
+NOTE:  specifying a filename with out an extensions is the same as using the 
+(.*) extension. (i.e. BILL is equal to BILL.*) 
 
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>What it is: </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>View-Compress (VC.EXE) is a program that allows
-you to view the files contained </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>within a .ZIP, .ARC,  or .LZH file.  It provides
-a compact listing of all the </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>files, along with sums of sizes, lentgths, etc. ,
-and can accept wildcards. </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>How to use it: </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>To use view, either type VC, and press the enter
-key, or type 'VC filename'. </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>If you don't supply the filename on the command
-line, you will be prompted for </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>it when the program runs.  The filename can be a .ZIP file (FRED.ZIP),
-and .LZH </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>file (HERB.LZH), an .ARC file (GEORGE.ARC), all
-.ZIP, .ARC, or .LZH files </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>(*.ZIP , *.LZH, or even *.ARC), or the filename
-without an extension (FRED), </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>or any other combination of wildcards and
-filename combinations you can </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>dream up (*.* works, too)  If you do select a wild card in the
-extension, the </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>program will quickly go through all files, but
-only print those that are .ZIP, </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>.ARC, or .LZH, so there might be a pause in
-between the list while it is </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>skipping past all the other non-ZIP/LZH/ARC files
-in the directory. </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>NOTE: 
-specifying a filename with out an extensions is the same as using the </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>(.*) extension. (i.e. BILL is equal to BILL.*) </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>NOTE TWO: 
-The program uses the file's extension to check to see if a filename </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>is actually a compressed file, therefore, if you
-happen to change a file's name </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>from FRED.ZIP to FRED.ZQP, it will not be
-recognized by this program.  For ARC </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>and ZIP files, the file header is also checked,
-to verify that it is actually </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>the given file type.  With LZH files, I could not find a distinct header that </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>could be used to verify it's type, therefore, if
-a file happens to have the .LZH </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>extension, and 
-it is: </span></p>
-
-<p class=MsoNormal style='text-align:justify;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>Jeua recognyou can ld be ile header is also checked,
-to verify that it is actually </span></p>
-
-<p class=MsoNormal style='margin-left:6.0in;text-align:justify;text-indent:
--6.0in;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'>ut g with suFR_e f</span></p>
-
-<span style='font-size:10.0pt;font-family:"Tms Rmn";'><br
-clear=all style='page-break-before:always'>
-</span>
-
-<p class=MsoNormal style='margin-left:6.0in;text-align:justify;text-indent:
--6.0in;text-autospace:none'><span style='font-size:10.0pt;font-family:"Tms Rmn"'> thile type.  With LZH
-files, I could not find a distinct </span></p>
-
-</div>
-
-</body>
-
-</html>
+NOTE TWO:  The program uses the file's extension to check to see if a filename 
+is actually a compressed file, therefore, if you happen to change a file's name 
+from FRED.ZIP to FRED.ZQP, it will not be recognized by this program.  For ARC 
+and ZIP files, the file header is also checked, to verify that it is actually 
+the given file type.  With LZH files, I could not find a distinct header that 
+could be used to verify it's type, therefore, if a file happens to have the .LZH 
+extension, and  it is: 
+(disk was corrupt)
